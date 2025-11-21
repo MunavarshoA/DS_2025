@@ -15,3 +15,4 @@ with st.expander("Visualization"):
 with st.sidebar:
   st.header('Input features')
   island = st.selectbox('Island', ('Torgersen', 'Dream', ' Biscoe'))
+  bill_length_mm = st.slider("bill_length_mm", 32.1, 59.6, 43.9)
