@@ -49,5 +49,8 @@ def target_encode(val):
 y = y_raw.apply(target_encode)
 X= df_penguins[1:]
         
-        
+input_raw = df_penguins[:1]
+with st.expander('Data preparation'):
+  st.write('**Encoded X**')
+  input_raw
 
