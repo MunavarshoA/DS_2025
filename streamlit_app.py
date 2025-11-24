@@ -33,6 +33,9 @@ data = {'island':island,
 input_df = pd.DataFrame(data, index=[0])
 input_penguins = pd.concat([input_df, X_raw],axis=0)
 
+with st.expander('Input features'):
+  st.write("**Input raw**)
+  input_df
         
         
         
